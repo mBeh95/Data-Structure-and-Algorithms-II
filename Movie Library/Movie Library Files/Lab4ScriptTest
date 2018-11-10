@@ -1,0 +1,207 @@
+Script started on Wed 15 Mar 2017 10:58:53 PM PDT
+]0;para@para-Inspiron-3558: ~/Desktop/Lab4[01;32mpara@para-Inspiron-3558[00m:[01;34m~/Desktop/Lab4[00m$ valgrind --leak-check=yes ./a.out[12Pscript Lab4ScriptTest[14P./a.outg++ -std=c++11 *.cpp
+]0;para@para-Inspiron-3558: ~/Desktop/Lab4[01;32mpara@para-Inspiron-3558[00m:[01;34m~/Desktop/Lab4[00m$ g++ -std=c++11 *.cppvalgrind --leak-check=yes ./a.out[12Pscript Lab4ScriptTest[14P./a.out
+Invalid movie type specified.
+Invalid movie type specified.
+ ---------- INVENTORY ---------- 
+Comedy
+
+10 - Annie Hall
+
+10 - Fargo
+
+10 - National Lampoon's Animal House
+
+10 - Pirates of the Caribbean
+
+10 - Sleepless in Seattle
+
+10 - When Harry Met Sally
+
+10 - You've Got Mail
+
+Drama
+
+10 - Good Morning Vietnam
+
+10 - Unforgiven
+
+10 - Good Will Hunting
+
+10 - Silence of the Lambs
+
+10 - Dogfight
+
+10 - King of Hearts
+
+10 - Schindler's List
+
+Classic
+
+10 - The Maltese Falcon
+         starring Humphrey Bogart
+
+10 - It's a Wonderful Life
+         starring Donna Reed
+
+10 - It's a Wonderful Life
+         starring James Steward
+
+10 - Gone With the Wind
+         starring Clark Gable
+
+10 - Gone With the Wind
+         starring Vivien Leigh
+
+10 - A Clockwork Orange
+         starring Malcolm McDowell
+
+10 - Harold and Maude
+         starring Ruth Gordon
+
+10 - The Philadelphia Story
+         starring Cary Grant
+
+10 - The Philadelphia Story
+         starring Katherine Hepburn
+
+10 - The Wizard of Oz
+         starring Judy Garland
+
+10 - Casablanca
+         starring Humphrey Bogart
+
+10 - Casablanca
+         starring Ingrid Bergman
+
+10 - Holiday
+         starring Cary Grant
+
+10 - Holiday
+         starring Katherine Hepburn
+
+ ---- HISTORY: Minnie Mouse ---- 
+ ---- HISTORY: Freddie Frog ---- 
+ ---- HISTORY: Wally Wacky ---- 
+B 1111 D Z 2 1971 Malcolm McDowell: Uninitialized object
+X: Uninitialized object
+Z 1000 D C 10 1941 Humphrey Bogart: Uninitialized object
+B 1234 D C 2 1971 Malcolm McDowell: Invalid customer ID 1234
+B 1000 D F Bogus Title, 2001: Movie out of stock.
+B 1000 Z F Fargo, 1996: Uninitialized object
+B 9000 D C 3 1971 Ruth Gordon: Movie out of stock.
+B 3333 D C 3 1971 Ruth Gordon: Movie out of stock.
+B 7777 D C 3 1971 Ruth Gordon: Movie out of stock.
+B 1000 D D Steven Spielberg, Bogus Title,: Movie out of stock.
+ ---------- INVENTORY ---------- 
+Comedy
+
+9 - Annie Hall
+
+9 - Fargo
+
+9 - National Lampoon's Animal House
+
+10 - Pirates of the Caribbean
+
+9 - Sleepless in Seattle
+
+9 - When Harry Met Sally
+
+9 - You've Got Mail
+
+Drama
+
+9 - Good Morning Vietnam
+
+9 - Unforgiven
+
+9 - Good Will Hunting
+
+9 - Silence of the Lambs
+
+8 - Dogfight
+
+9 - King of Hearts
+
+9 - Schindler's List
+
+Classic
+
+9 - The Maltese Falcon
+         starring Humphrey Bogart
+
+10 - It's a Wonderful Life
+         starring Donna Reed
+
+10 - It's a Wonderful Life
+         starring James Steward
+
+10 - Gone With the Wind
+         starring Clark Gable
+
+10 - Gone With the Wind
+         starring Vivien Leigh
+
+9 - A Clockwork Orange
+         starring Malcolm McDowell
+
+0 - Harold and Maude
+         starring Ruth Gordon
+
+9 - The Philadelphia Story
+         starring Cary Grant
+
+9 - The Philadelphia Story
+         starring Katherine Hepburn
+
+10 - The Wizard of Oz
+         starring Judy Garland
+
+10 - Casablanca
+         starring Humphrey Bogart
+
+10 - Casablanca
+         starring Ingrid Bergman
+
+9 - Holiday
+         starring Cary Grant
+
+10 - Holiday
+         starring Katherine Hepburn
+
+ ---- HISTORY: Minnie Mouse ---- 
+B Harold and Maude
+B The Philadelphia Story
+B Good Will Hunting
+B The Philadelphia Story
+B Good Morning Vietnam
+ ---- HISTORY: Mickey Mouse ---- 
+B Holiday
+B The Maltese Falcon
+B Harold and Maude
+B A Clockwork Orange
+ ---- HISTORY: Freddie Frog ---- 
+B Harold and Maude
+R Harold and Maude
+B Harold and Maude
+R Harold and Maude
+B Harold and Maude
+R Harold and Maude
+B Harold and Maude
+ ---- HISTORY: Wally Wacky ---- 
+B National Lampoon's Animal House
+B Harold and Maude
+B Harold and Maude
+R You've Got Mail
+B You've Got Mail
+ ---- HISTORY: Porky Pig ---- 
+B Harold and Maude
+B Dogfight
+B Silence of the Lambs
+B When Harry Met Sally
+B Annie Hall
+]0;para@para-Inspiron-3558: ~/Desktop/Lab4[01;32mpara@para-Inspiron-3558[00m:[01;34m~/Desktop/Lab4[00m$ exit
+exit
+
+Script done on Wed 15 Mar 2017 10:59:10 PM PDT
